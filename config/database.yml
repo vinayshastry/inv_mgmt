@@ -1,0 +1,24 @@
+development:
+  adapter: postgresql
+  database: inv_mgmt_dev
+  pool: 5
+  timeout: 5000
+  host: localhost
+  username: postgres
+  password: postgres
+test:
+  adapter: postgresql
+  database: inv_mgmt_test
+  pool: 5
+  timeout: 5000
+  host: localhost
+  username: postgres
+  password: postgres
+production:
+  adapter: postgresql
+  database: inv_mgmt
+  pool: 5
+  timeout: 5000
+  host: localhost
+  username: postgres
+  password: postgres
