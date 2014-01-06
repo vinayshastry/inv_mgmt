@@ -1,0 +1,7 @@
+<form action='/invoices' method='post'>
+  <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+  <button type='submit'>Add</button>
+</form>
+<% @invoices.each do |invoice| %>
+  <%= invoice.number %><br/>
+<% end %>
